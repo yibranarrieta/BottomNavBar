@@ -10,7 +10,7 @@ class PlantsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.transparent,
       appBar: AppBar(
-        title: const Text('Plants'),
+        title: const Text('Flores'),
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
         elevation: 0.2,
@@ -25,7 +25,7 @@ class PlantsScreen extends StatelessWidget {
                 height: 100.0),
             SizedBox(height: 50.0),
             Text(
-              'My Sweet Plants',
+              'Las flores de mi jardin',
               style: TextStyle(fontSize: 24),
             ),
           ],

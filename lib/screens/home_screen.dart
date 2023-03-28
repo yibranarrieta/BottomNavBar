@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.transparent,
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Casa'),
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
         elevation: 0.2,
@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
                 height: 100.0),
             SizedBox(height: 50.0),
             Text(
-              'My Sweet Home',
+              'Mi pequeña casa',
               style: TextStyle(fontSize: 24),
             ),
           ],
